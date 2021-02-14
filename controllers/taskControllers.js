@@ -8,3 +8,12 @@ exports.taskList = async (req, res, next) => {
     next(error);
   }
 };
+
+exports.taskCreate = async (req, res, next) => {
+  try {
+    const newTask = await Task.create(req.body);
+    res.status(201).json(newTask);
+  } catch (error) {
+    next(error);
+  }
+};
