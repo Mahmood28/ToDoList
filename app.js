@@ -5,7 +5,7 @@ const taskRoutes = require("./routes/tasks");
 
 const app = express();
 
-// yarn add cors sequelize sequelize-cli pg pg-hstore sequelize sequelize-cli sequelize-slugify pg pg-hstore
+// yarn add cors sequelize sequelize-cli pg pg-hstore sequelize sequelize-slugify pg pg-hstore
 //create db in your pc and change config.json info
 
 app.use(cors());

@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
         defaultValue: "medium",
       },
       deadline: {
-        type: DataTypes.DATEONLY,
+        type: DataTypes.DATE,
         defaultValue: new Date("January 31 2022"),
       },
     },
